@@ -9,7 +9,7 @@ public class Exercise42 {
 
 		System.out.print("월을 입력하세요(1~12): ");
 		int month = Integer.parseInt(scanner.nextLine());
-
+// int month = scanner.nextInt();
 		if (3 <= month && month <= 5) {
 			System.out.println(month + "월은 봄입니다.");
 		} else if (6 <= month && month <= 8) {

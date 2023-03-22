@@ -11,7 +11,7 @@ public class Exercise32 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("수도입니까?(수도: 1, 수도아님: 0) ");
 		int capital = scanner.nextInt();
-
+		
 		System.out.print("총 인구는?(단위: 만) ");
 		int population = scanner.nextInt();
 

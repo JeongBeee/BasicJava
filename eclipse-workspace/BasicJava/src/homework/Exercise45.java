@@ -8,13 +8,18 @@ import java.util.Scanner;
 public class Exercise45 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		
 		Random random = new Random();
 		int com = random.nextInt(100) + 1; // (100) 이란? 0부터 99까지
+		
 		int count = 0;
+		
 		while (true) { // while(true) 계속 실행-무한반복
-			count++;
+			count++; //입력 횟수 집계
 			System.out.print("1부터 100 사이의 정수 중 하나를 선택하세요: ");
 			int num = Integer.parseInt(scanner.nextLine());
+			// int num = scanner.nextInt();
+			
 			if (com > num) {
 				System.out.println("정답은 더 큰 수입니다.");
 			} else if (com < num) {

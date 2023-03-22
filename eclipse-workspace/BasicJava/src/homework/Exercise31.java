@@ -13,7 +13,6 @@ public class Exercise31 {
 
 		System.out.print("첫 번째 숫자를 입력하세요: ");
 		int a = Integer.parseInt(scanner.nextLine());  // 문자열로 받고, 정수형으로 변환
-
 		System.out.print("두 번째 숫자를 입력하세요: ");
 		int b = Integer.parseInt(scanner.nextLine());
 

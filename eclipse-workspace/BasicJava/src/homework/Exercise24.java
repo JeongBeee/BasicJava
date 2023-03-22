@@ -10,13 +10,13 @@ public class Exercise24 {
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.print("원기둥 밑변의 반지름을 입력하시오.(단위: cm): ");
-		String x = scanner.nextLine();
+		String x = scanner.nextLine(); // 문자열 입력, next()는 공백 이전까지 입력받음
 
 		System.out.print("원기둥의 높이를 입력하시오.(단위: cm): ");
 		String y = scanner.nextLine();
 
-		double num1 = Double.parseDouble(x);
-		double num2 = Double.parseDouble(y);
+		double num1 = Double.parseDouble(x); // 문자열을 실수형으로 변환
+		double num2 = Double.parseDouble(y); 
 
 		double result1 = num1 * num1 * Math.PI;
 		System.out.print("원기둥 밑변의 넓이는 " + result1 + "㎠이고, ");

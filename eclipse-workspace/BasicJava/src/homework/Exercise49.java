@@ -17,7 +17,8 @@ public class Exercise49 {
 
 		for (int i = 1; i <= 10000; i++) { // 10000번 반복
 			int n = random.nextInt(6) + 1; // 0부터 5 +1
-			switch (n) {
+
+			switch (n) { // 6개의 숫자 중 랜덤으로 한 수가 뽑힌다. -> 10000번 반복
 			case 1:
 				dice[0]++;
 				break;
@@ -48,19 +49,19 @@ public class Exercise49 {
 
 }
 
-
-
 /*
- * 두번째 방법 
- * int dice[] = new int[6]; Random random = new Random();
+ * 두번째 방법 int dice[] = new int[6]; Random random = new Random();
  * 
- * for (int i = 1; i <= 10000; i++) { // 10000번 반복 int n = random.nextInt(6) +1; // 0부터 5 +1 
- * dice[n-1]++; 
+ * for (int i = 1; i <= 10000; i++) { // 10000번 반복 
+ * int n = random.nextInt(6) +1; // 0부터 5 +1 
+ * dice[n-1]++; // dice[x] 값이 늘어나는 것이니, 배열을 고려해서 dice[n-1]이라고 하면 된다.... 
  * }
  * 
- * System.out.println("----------"); System.out.println("면    빈도");
+ * System.out.println("----------"); 
+ * 
+ * System.out.println("면    빈도");
  * System.out.println("----------");
  * 
- * for (int i = 0; i < dice.length; i++) { // 0,1,2,3,4,5 까지
- * System.out.println((i+1) + "     " + dice[i]); }
+ * for (int i = 1; i <= dice.length; i++) { // 0,1,2,3,4,5 까지
+ * System.out.println(( i + "     " + dice[i]); }
  */

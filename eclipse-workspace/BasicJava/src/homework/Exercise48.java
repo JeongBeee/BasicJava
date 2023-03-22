@@ -14,7 +14,7 @@ public class Exercise48 {
 
 		int num = random.nextInt(3);// 0부터 2까지
 		String[] coms = { "가위", "바위", "보" };
-		String result = "";
+		String result = ""; // 문자열 초기화
 
 		System.out.print("가위 바위 보를 입력하세요: ");
 		String human = scanner.nextLine();
