@@ -14,9 +14,20 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="javax.sql.rowset.JoinRowSet"/>
     <fullyQualifiedTypeName name="chapter06.Car3"/>
-    <fullyQualifiedTypeName name="chapter06.Calculator"/>
     <fullyQualifiedTypeName name="chapter06.Calculator3"/>
     <fullyQualifiedTypeName name="chapter06.MemberService"/>
     <fullyQualifiedTypeName name="chapter06.Printer"/>
+    <fullyQualifiedTypeName name="chapter06.Calculator"/>
+    <fullyQualifiedTypeName name="chapter06.Calculator4"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="chapter06.BankAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="chapter06.Earth"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="chapter06.package1.B"/>
+    <fullyQualifiedTypeName name="chapter06.package2.C"/>
+    <fullyQualifiedTypeName name="chapter06.package1.A"/>
+    <fullyQualifiedTypeName name="chapter06.Person"/>
+    <fullyQualifiedTypeName name="chapter06.Person2"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
