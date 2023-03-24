@@ -9,6 +9,6 @@ public class Calculator4Example {
 		double result = 5 * 5 * Calculator4.pi; // calculator.pi = > Calculator.pi 클래스이름.pi 로 바꾼다
 		System.out.println("반지름이 5인 원의 넓이: " + result);
 		// 뺄셈 연산을 한다. 100-24
-		System.out.println(Calculator4.minus(100, 24)); // ststic은 이미 만들어져있다.
+		System.out.println(Calculator4.minus(100, 24)); // static은 이미 만들어져있다.
 	}
 }
