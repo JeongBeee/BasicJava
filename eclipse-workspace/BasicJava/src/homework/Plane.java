@@ -20,8 +20,7 @@ public class Plane {
 			numberOfPlanes++;
 		}
 
-		// 메소드
-		
+		// 메소드	
 		public String getManufacture() {
 			return manufacture;
 		}

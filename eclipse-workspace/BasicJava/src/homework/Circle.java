@@ -18,30 +18,31 @@ public class Circle {
 	}
 
 	// 메소드
-	public double getArea() {
-		return radius * radius * Math.PI;
+	public double getArea() {  // 원의 넓이 계산
+		double area = radius * radius * Math.PI;
+		return area;		
 	}
 
 	public double getRadius() {
 		return radius;
 	}
 
+	public double getX() {
+		return x;
+	}
+
+	public double getY() {
+		return y;
+	}
+	
 	public void setRadius(double radius) {
 		if (radius > 0) {
 			this.radius = radius;
 		}
 	}
 
-	public double getX() {
-		return x;
-	}
-
 	public void setX(double x) {
 		this.x = x;
-	}
-
-	public double getY() {
-		return y;
 	}
 
 	public void setY(double y) {
