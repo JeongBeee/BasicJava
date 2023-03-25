@@ -4,7 +4,7 @@ public class Car {
 	// 필드
 	private double speed;
 	private String color;
-	private static final double MAX_SPEED = 200.0;
+	private static final double MAX_SPEED = 200.0; //상수
 
 	// 생성자
 	public Car() {
@@ -42,5 +42,9 @@ public class Car {
 
 	public static double getMaxSpeed() {
 		return MAX_SPEED;
+	}
+
+	public String toString() {
+		return String.format("%d", speed);
 	}
 }

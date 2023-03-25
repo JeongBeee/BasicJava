@@ -30,9 +30,9 @@
     <fullyQualifiedTypeName name="chapter06.Person2"/>
     <fullyQualifiedTypeName name="chapter06.ShopService"/>
     <fullyQualifiedTypeName name="chapter07.Cellphone"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="chapter07.DmbCellPhone"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="homework.Time"/>
     <fullyQualifiedTypeName name="homework.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

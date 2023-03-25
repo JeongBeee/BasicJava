@@ -27,9 +27,3 @@ public class Time {
 		return String.format("%02d:%02d:%02d", hour, minute, second);  // 문자열로 반환 
 	}
 }
-
-
-
-	
-
-
