@@ -36,8 +36,8 @@ public class Circle {
 		return x;
 	}
 
-	public double setX(double x) {
-		return x;
+	public void setX(double x) {
+		this.x = x;
 	}
 
 	public double getY() {

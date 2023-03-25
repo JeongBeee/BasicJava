@@ -3,7 +3,7 @@ package homework;
 public class CircleTest {
 	public static void main(String[] args) {
 		Circle circle1 = new Circle();
-		circle1.setRadius(3, 6);
+		circle1.setRadius(3.6);
 		circle1.setX(0.0);
 		circle1.setY(1.5);
 
