@@ -49,12 +49,22 @@ public class Exercise44 {
 /*
  * 시험에 나옴 System.out.println("가위 바위 보 게임");
  * 
- * System.out.print("철수: "); String boy = scanner.nextLine();
- * System.out.print("영희: "); String girl = scanner.nextLine(); String
- * resultString = ""; if(boy.equals(girl)) { result = "비김"; } else if
+ * System.out.print("철수: "); 
+ * String boy = scanner.nextLine();
+ * System.out.print("영희: "); 
+ * String girl = scanner.nextLine(); 
+ * String result = ""; 
+ * if(boy.equals(girl)) { 
+ * result = "비김"; 
+ * } 
+ * else if
  * (boy.equals("가위") && girl.equals("바위") || boy.equals("바위") &&
- * girl.equals("보") || boy.equals("보") && girl.equals("가위")) { result =
- * "영희 승리!"; } else { result = "철수 승리!"; } System.out.println("결과: " + result);
+ * girl.equals("보") || boy.equals("보") && girl.equals("가위")) { 
+ * result = "영희 승리!"; } 
+ * else 
+ * { result = "철수 승리!"; 
+ * } 
+ * System.out.println("결과: " + result);
  * 
  * 
  * /* 두번째 방법

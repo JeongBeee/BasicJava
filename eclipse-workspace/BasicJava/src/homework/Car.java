@@ -31,20 +31,20 @@ public class Car {
 	public void setColor(String color) {
 		this.color = color;
 	}
+	
+	public static double getMaxSpeed() { // 최대 속력값을 반환하는 정적 메소드
+		return MAX_SPEED;
+	}
 
 	public boolean speedUp(double speed) {
-		if (speed + this.speed < 0 || speed + this.speed > MAX_SPEED) {
+		if (speed + this.speed < 0 || speed + this.speed > MAX_SPEED) { // 외부speed 내부this.speed
 			return false;
 		}
 		this.speed += speed;
 		return true;
 	}
 
-	public static double getMaxSpeed() {
-		return MAX_SPEED;
-	}
-
-	public String toString() {
-		return String.format("%d", speed);
-	}
+	//public String toString() {
+		//return String.format("%d", speed);
+	//}
 }

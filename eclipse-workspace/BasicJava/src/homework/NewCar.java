@@ -5,8 +5,7 @@ public class NewCar {
 	// 필드
 	private double speed;
 	private String color;
-	private static final double MAX_SPEED  = 200.0 / 1.6;
-
+	private static final double MAX_SPEED  = 200.0 / 1.6; // killoToMile(200)
 
 	// 생성자
 	public NewCar() {
@@ -17,12 +16,11 @@ public class NewCar {
 	}
 
 	// 메소드
-	public double getSpeed() {
+	public double getSpeed() { // 외부에서
 		return mileToKilo(speed);
-
 	}
 
-	public void setSpeed(double speed) {
+	public void setSpeed(double speed) { // 내부에서
 		this.speed = killoToMile(speed);
 	}
 
@@ -44,12 +42,12 @@ public class NewCar {
 		}
 	}
 
-	static double getMaxSpeed() {
+	static double getMaxSpeed() { // 외부에서
 		return mileToKilo(MAX_SPEED);
 	}
 
 	static private double killoToMile(double distance) {
-		return distance / 1.6;
+		return distance / 1.6; // km -> mile (1mile = 1.6km)
 	}
 
 	static private double mileToKilo(double distance) {

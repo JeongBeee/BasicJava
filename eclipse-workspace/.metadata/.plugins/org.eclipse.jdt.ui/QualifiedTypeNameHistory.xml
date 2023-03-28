@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="chapter06.Car"/>
     <fullyQualifiedTypeName name="chapter06.Member"/>
     <fullyQualifiedTypeName name="chapter06.Board"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="chapter06.Car2"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="javax.sql.rowset.JoinRowSet"/>
@@ -22,7 +21,6 @@
     <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
     <fullyQualifiedTypeName name="chapter06.BankAccount"/>
     <fullyQualifiedTypeName name="chapter06.Earth"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
     <fullyQualifiedTypeName name="chapter06.package1.B"/>
     <fullyQualifiedTypeName name="chapter06.package2.C"/>
     <fullyQualifiedTypeName name="chapter06.package1.A"/>
@@ -31,8 +29,28 @@
     <fullyQualifiedTypeName name="chapter06.ShopService"/>
     <fullyQualifiedTypeName name="chapter07.Cellphone"/>
     <fullyQualifiedTypeName name="chapter07.DmbCellPhone"/>
+    <fullyQualifiedTypeName name="homework.Circle"/>
+    <fullyQualifiedTypeName name="chapter07.Airplane"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="chapter07.SupersonicAirplane"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="homework.Time"/>
-    <fullyQualifiedTypeName name="homework.Circle"/>
+    <fullyQualifiedTypeName name="javax.swing.text.TabStop"/>
+    <fullyQualifiedTypeName name="chapter07.Tire"/>
+    <fullyQualifiedTypeName name="chapter07.Car"/>
+    <fullyQualifiedTypeName name="chapter07.HankookTire"/>
+    <fullyQualifiedTypeName name="chapter07.Vehicle"/>
+    <fullyQualifiedTypeName name="java.awt.image.renderable.RenderableImage"/>
+    <fullyQualifiedTypeName name="chapter07.Driver"/>
+    <fullyQualifiedTypeName name="chapter07.Bus"/>
+    <fullyQualifiedTypeName name="chapter07.Taxi"/>
+    <fullyQualifiedTypeName name="chapter07.LoginServlet"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="chapter07.FileDownloadServlet"/>
+    <fullyQualifiedTypeName name="chapter07.HttpServelet"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextExt"/>
+    <fullyQualifiedTypeName name="homework.practice"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

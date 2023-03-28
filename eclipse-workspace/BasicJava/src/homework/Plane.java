@@ -9,7 +9,7 @@ public class Plane {
 
 	// 생성자
 	public Plane() {
-		numberOfPlanes++;
+		numberOfPlanes++; // 객체가 생성될 때(new)마다 생성자에서 증가시켜줘야함.
 	}
 
 	public Plane(String manufacture, String model, int maxNumberOfPassengers) {
@@ -17,7 +17,7 @@ public class Plane {
 		this.manufacture = manufacture;
 		this.model = model;
 		this.maxNumberOfPassengers = maxNumberOfPassengers;
-		numberOfPlanes++;
+		numberOfPlanes++; // 객체가 생성될 때마다 생성자에서 증가시켜줘야함.
 	}
 
 	// 메소드
@@ -51,3 +51,19 @@ public class Plane {
 	}
 	// toString() 생략
 }
+
+/* 	private String manufacture;
+	private String model;
+	private int maxNumberOfPassengers;
+	private static int numberOfPlanes;
+	
+	public Plane(){
+	}
+	public Plane(String manufacture, String model, int maxNumberOfPassengers){
+		this.manufacture = manufacture;
+		this.model = model;
+		this.maxNumberOfPassengers = maxNumberOfPassengers;
+	}
+ */
+
+
