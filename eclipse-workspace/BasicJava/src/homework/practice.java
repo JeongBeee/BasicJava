@@ -53,3 +53,5 @@ public class practice {
 		return String.format("%d", speed);
 	}
 }
+
+/*if (boy.equals(girl))*/

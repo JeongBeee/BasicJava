@@ -20,7 +20,7 @@ public class Exercise44 {
 		String result = ""; // 문자열 초기화
 
 		if (boy.equals(girl)) {
-			System.out.println("비겼습니다!");
+			result = "비겼습니다!";
 		} // 비기는 경우
 		else if (boy.equals("바위") && girl.equals("가위") || boy.equals("가위") && girl.equals("보")
 				|| boy.equals("보") && girl.equals("바위")) // 철수가 이기는 경우
