@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="chapter06.Car"/>
-    <fullyQualifiedTypeName name="chapter06.Member"/>
-    <fullyQualifiedTypeName name="chapter06.Board"/>
-    <fullyQualifiedTypeName name="chapter06.Car2"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="javax.sql.rowset.JoinRowSet"/>
     <fullyQualifiedTypeName name="chapter06.Car3"/>
     <fullyQualifiedTypeName name="chapter06.Calculator3"/>
     <fullyQualifiedTypeName name="chapter06.MemberService"/>
@@ -26,7 +20,6 @@
     <fullyQualifiedTypeName name="homework.Circle"/>
     <fullyQualifiedTypeName name="chapter07.Airplane"/>
     <fullyQualifiedTypeName name="chapter07.SupersonicAirplane"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="homework.Time"/>
     <fullyQualifiedTypeName name="javax.swing.text.TabStop"/>
     <fullyQualifiedTypeName name="chapter07.Tire"/>
@@ -59,5 +52,12 @@
     <fullyQualifiedTypeName name="homework7.Customer"/>
     <fullyQualifiedTypeName name="homework7.BankAccount"/>
     <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="javax.jws.soap.InitParam"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="chapter10.TryCatchFinallyRuntimeExceptionExample"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.net.MulticastSocket"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 </qualifiedTypeNameHistroy>

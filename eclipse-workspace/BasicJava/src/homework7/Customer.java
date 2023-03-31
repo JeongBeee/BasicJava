@@ -36,5 +36,7 @@ public class Customer {
 	@Override
 	public String toString() {
 		return String.format("이름: %s %s , 잔고: %s원" , firstName , lastName, df.format(account.getBalance()) );
+		//return String.format("이름: %s %s , 잔액: %,d원"  firstName , lastName , account.getBalance());
 	}
 }
+

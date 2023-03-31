@@ -21,7 +21,7 @@ public class BankAccount {
 	}
 
 	public boolean withdraw(int amount) { // 출금 메소드
-		if (balance >= amount) { // 잔액 확인
+		if (balance >= amount) { // 잔액 확인 (출금액이 현재 잔액보다 클 수 없다.)
 			balance -= amount;
 			return true;
 		} else {
@@ -29,7 +29,7 @@ public class BankAccount {
 		}
 	}
 
-	public boolean transfer(int amount, BankAccount otherAccount) {
+	public boolean transfer(int amount, BankAccount otherAccount) { // 이체 메소드
 		if (withdraw(amount) == true) {
 			otherAccount.deposit(amount);
 			return true;
@@ -38,3 +38,18 @@ public class BankAccount {
 		}
 	}
 }
+
+
+
+/*두번째 방법  
+ * if (amount > balance) {
+	return false;
+}
+balance -= amount;
+otherAccount.balance += amount;
+return true;  */
+
+/*세번째 방법
+ *  withdraw(amount);
+otherAccount.deposit(amount);
+return true; */

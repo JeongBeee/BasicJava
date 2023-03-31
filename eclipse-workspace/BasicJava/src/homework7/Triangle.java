@@ -18,7 +18,7 @@ public class Triangle extends Shape {
 
 	@Override
 	public double area() {
-		return (side * side) / 2;
+		return Math.sqrt(3) / 4.0 * side * side; // (side * side) / 2;
 	}
 
 	@Override

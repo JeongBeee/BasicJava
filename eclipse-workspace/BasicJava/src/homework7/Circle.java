@@ -25,5 +25,4 @@ public class Circle extends Shape {
 	public String toString() {
 		return "도형의 종류: 원" + ", 둘레:" + perimeter() + "cm" + ", 넓이: " + area() + "cm²";
 	}
-
 }
