@@ -26,7 +26,7 @@ public class BankTest {
 	private static void printCustomers(Customer[] customers) {
 		for (Customer c : customers) {
 			if (c != null) {
-				System.out.println("이름:" + c + "," + "계좌의 수: " + c.getNumberOfAccounts());
+				System.out.println( c + "," + "계좌의 수: " + c.getNumberOfAccounts());
 				for (int i = 0; i < c.getNumberOfAccounts(); i++) {
 					System.out.println(
 							"계좌 종류: " + c.getAccount(i).getAccountType() + ", 잔고: " + c.getAccount(i) + "원");
