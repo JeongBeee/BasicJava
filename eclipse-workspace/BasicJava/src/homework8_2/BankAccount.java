@@ -1,5 +1,7 @@
 package homework8_2;
 
+import java.util.EnumMap;
+
 public abstract class BankAccount {
 
 	// 계좌 종류를 반환하는 메소드 SavingsAccount => 저축예금, CheckingAccount => 당좌예금

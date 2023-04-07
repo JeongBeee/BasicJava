@@ -17,7 +17,7 @@ public class BankExample {
 		try {
 			tonyAccount.transfer(2000, null);
 			System.out.println("송금 완료");
-		} catch (NullPointerException e) { // othercount가 null이면
+		} catch (NullPointerException e) { // otherAccount가 null이면
 			System.out.println("해당하는 계좌가 없습니다.");
 			System.out.println("송금 실패");
 		} catch (IllegalArgumentException e) { // amount값이 음수이거나 balance보다 크면

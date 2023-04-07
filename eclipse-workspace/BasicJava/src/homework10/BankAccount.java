@@ -38,18 +38,17 @@ public abstract class BankAccount {
 	// @param amount 이체할 금액
 	// @param otherAccount 이체될 계좌번호
 
-	public void transfer(int amount, BankAccount otherAccount) {
-		if(amount < 0 || balance < amount) {
+	public boolean transfer(int amount, BankAccount otherAccount) {
+		if (amount < 0 || balance < amount) {
 			throw new IllegalArgumentException();
 		}
-		if(otherAccount == null) {
+		if (otherAccount == null) {
 			throw new NullPointerException();
 		}
-		if (withdraw(amount)) {
-			otherAccount.deposit(amount);
-			return;
-			}
-		}
+		withdraw(amount);
+		otherAccount.deposit(amount);
+		return true;
+	}
 
 	@Override
 	public String toString() {
